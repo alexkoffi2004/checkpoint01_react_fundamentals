@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# React Product Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Ce projet est une application React affichant une carte produit avec son nom, son prix, sa description et une image. Il utilise react-bootstrap pour le style et est basé sur la manipulation des composants React et JSX.
 
-In the project directory, you can run:
+## Technologies utilisées
 
-### `npm start`
+- React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React Bootstrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- JSX
 
-### `npm test`
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation et exécution
 
-### `npm run build`
+**1. Cloner le projet**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- git clone https://github.com/alexkoffi2004/checkpoint01_react_fundamentals.git
+- cd checkpoint01_react_fundamentals
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**2. Installer les dépendances**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+**3. Lancer l'application**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+L'application sera accessible sur http://localhost:3000/.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Structure du projet
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📂 src
+ - ┣ 📜 App.js           # Composant principal
+ - ┣ 📜 Name.js         # Composant affichant le nom du produit
+ - ┣ 📜 Price.js        # Composant affichant le prix du produit
+ - ┣ 📜 Description.js  # Composant affichant la description du produit
+ - ┣ 📜 Image.js        # Composant affichant l'image du produit
+ - ┣ 📜 product.js      # Objet JSON contenant les informations du produit
+ - ┗ 📜 index.js        # Point d'entrée de l'application
 
-## Learn More
+## Fonctionnalités
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Affichage dynamique des informations d’un produit à partir d’un fichier JSON.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Utilisation de composants réutilisables (Name, Price, Description, Image).
 
-### Code Splitting
+- Intégration de react-bootstrap pour un design responsive et attrayant.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Affichage dynamique du message de bienvenue en fonction de la présence d’un prénom.
 
-### Analyzing the Bundle Size
+# Auteur
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Projet réalisé par Kouadio Jean Alex Koffi 🚀
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

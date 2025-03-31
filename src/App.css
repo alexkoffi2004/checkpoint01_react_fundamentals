@@ -1,10 +1,11 @@
 /* src/App.css */
 .App {
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #030303;
+  flex-direction: column;
 }
 
 .Card {
@@ -12,6 +13,10 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 35%;
   border-radius: 10px;
+}
+
+span{
+  color: white;
 }

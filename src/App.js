@@ -1,10 +1,10 @@
 // src/App.js
 import React from 'react';
-import {Card} from 'react-bootstrap/Card';
-import Name from './Name';
-import Price from './Price';
-import Description from './Description';
-import Image from './Image';
+import {Card} from 'react-bootstrap';
+import Name from './components/Name';
+import Price from './components/Price';
+import Description from './components/Description';
+import Image from './components/Image';
 import './App.css'; 
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
         </Card.Body>
       </Card>
       {prénom ? (
-        <p>Bonjour, {prénom}!</p>
+        <p> <span> Bonjour, {prénom}! </span> </p>
       ) : (
         <p>Bonjour !</p>
       )}
